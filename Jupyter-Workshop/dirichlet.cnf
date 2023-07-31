@@ -1,0 +1,13 @@
+[DIRICHLET DATA]
+bc_all = y**2-x**2
+laplacian = 0
+xlower = 0
+xupper = 1
+ylower = 0
+yupper = 1
+
+[FD SOLUTION]
+n = 40
+solver = lu
+tolerance = 1e-06
+
